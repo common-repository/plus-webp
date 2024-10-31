@@ -1,0 +1,19 @@
+{
+  "name": "plus-webp",
+  "version": "2.0.0",
+  "description": "Plus WebP",
+  "main": "plus-webp.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build:plus-webp": "wp-scripts build src/plus-webp --output-path=dist",
+    "lint-js": "wp-scripts lint-js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katsushi Kawamori",
+  "devDependencies": {
+    "@wordpress/scripts": "26.5.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.31.0"
+  }
+}
